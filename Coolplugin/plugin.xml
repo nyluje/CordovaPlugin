@@ -30,6 +30,10 @@
     <repo></repo>
     <issue></issue>
 
+      <engines>
+    	<engine name="cordova" version=">=6.0.0" />
+    </engines>
+  
     <js-module src="www/CoolPlugin.js" name="CoolPlugin">
         <clobbers target="CoolPlugin" />
     </js-module>
